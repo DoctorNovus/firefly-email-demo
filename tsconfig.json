@@ -1,0 +1,34 @@
+{
+    "include": [
+        "src"
+    ],
+    "compilerOptions": {
+        /* features */
+        "experimentalDecorators": true,
+        "useDefineForClassFields": true,
+        /* syntax */
+        "target": "ES2020",
+        "module": "ESNext",
+        "lib": [
+            "ES2020"
+        ],
+        "skipLibCheck": true,
+        /* bundler mode */
+        "moduleResolution": "Bundler",
+        "allowImportingTsExtensions": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+        /* import path aliases */
+        "baseUrl": "./src",
+        "paths": {
+            "@/*": [
+                "./*"
+            ],
+            "@components/*": [
+                "./_components/*"
+            ]
+        }
+    }
+}
